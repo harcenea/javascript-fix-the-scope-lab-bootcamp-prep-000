@@ -19,12 +19,23 @@ function add2(n) {
   const two = 2
 }
 
+<<<<<<< HEAD
 var funkyFunction = function outsideFunction () {
  return function insideFunction() { return "FUNKY!";
 }}
 
 funkyFunction()
+=======
+function funkyFunction() { return "FUNKY!";
+}
+>>>>>>> 30ed7e44136500b5223247609bff670a506963a0
+
+funkyFunction();
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
+<<<<<<< HEAD
 var theFunk = funkyFunction()();
+=======
+var theFunk = funkyFunction()
+>>>>>>> 30ed7e44136500b5223247609bff670a506963a0
